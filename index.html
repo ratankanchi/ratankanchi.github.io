@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="normalise.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Crolla Creations</title>
+</head>
+
+<body class="hover-menu">
+  <header>
+    <div class="brgr" onclick="navBtn(this)" id="navbar-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div id="responsive_nav" class="overlay-menu" style="width:0%">
+      <ul class="overlay_content">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+      </ul>
+      <div class="fab-menu">
+        <div class="icon-wrapper">
+          <i class="fab fa-linkedin icon-menu"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="fab fa-github icon-menu"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="fab fa-twitter icon-menu"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="fab fa-discord icon-menu"></i>
+        </div>
+      </div>
+      <div class="brief-menu">
+        <img src="images/arrow.svg" alt="arrow right">
+        <div class="menu-text bg">
+          <div class="menu-prompt">
+            <p>Want to work with me?</p>
+          </div>
+          <div class="brief">
+            <a href="#">BRIEF ME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="scroll-down">
+    <p>Scroll</p>
+    <div class="arrow bounce">
+      <a class="fa fa-arrow-down fa-sm"></a>
+    </div>
+  </div>
+
+  <div class="top">
+    <h2>HE<br>LLO</h2>
+    <div class="intro" id="intro">
+      <div class="info">
+        <h3 class="right">Cristiano Crolla</h3>
+        <p class="bottom">Front-End Developer<br>& UI Designer</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="side-menu" onclick="sideBtn(this)">
+    <i class="icon">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </i>
+    <p class="side-text">MENU</p>
+  </a>
+  <div class="top-stick"></div>
+  <div class="bottom-stick"></div>
+  <div class="scroll-down-left">
+    <p>Scroll</p>
+    <div class="arrow bounce">
+      <a class="fa fa-arrow-down fa-xs"></a>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="intro-image"></div>
+      <div class="gutters padding">
+        <span class="intro-text" id="about-intro">INTRODUCION</span>
+        <h3 id="about-me">Make anything.</h3>
+        <p id="about-text">I am a proud to say that I am a self taught Front-End Developer based in Edinburgh, Scotland. Coding started out as a hobby the summer before I began my studies for at University but once at University I
+          realised that the course just was not for me subsequently dropping out. Coding took a back seat during University and only after I left did I realised I had a interest to pursue programming further. I am a visual
+          learner and concept of writing a few lines of code only for the output to appear on my screen seconds later brought instant gratification and excitement. I took learning into my own hands all whist maintaining a full time job and now have
+          reached the
+          point in my learing where I want to put my services out there.</p>
+        <div class="break"></div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="gutters padding">
+        <p class="intro-text" id="services-intro">SERVICES</p>
+        <h3 id="services-header">What I can do.</h3>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="top-card first-card">
+            <!-- IMAGE -->
+          </div>
+          <div class="bottom-card">
+            <div class="container">
+              <span class="intro-text" id="numbers">01</span>
+              <h4>UI and Web Design </h4>
+              <p class="services-text">Leave it to me to turn your website ideas into realistic mockups to find the best design to fit your website.</p>
+              <p class="subtext">Adobe XD</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card second-card">
+            <!-- IMAGE -->
+          </div>
+          <div class="bottom-card">
+            <div class="container">
+              <span class="intro-text" id="numbers">02</span>
+              <h4>Web Development</h4>
+              <p class="services-text">I can utilise my web developemnt skills to turn these mockups into a reality using the lastest technologies and a mobile first approach</p>
+              <p class="subtext">HTML/CSS</p>
+              <p class="subtext">JavaScript</p>
+              <p class="subtext">Git</p>
+              <p class="subtext">Responsive design</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top-card third-card">
+            <!-- IMAGE -->
+          </div>
+          <div class="bottom-card">
+            <div class="container">
+              <span class="intro-text" id="numbers">03</span>
+              <h4>Quick Learner</h4>
+              <p class="services-text">Confident in my ability to learn something new and put it into production. Thrive in fast-paced and competitive environments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="gutters padding">
+        <p class="intro-text">PROJECTS</p>
+        <h3>Things I've made.</h3>
+      </div>
+      <div class="projects-container">
+        <div class="box img1">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+        <div class="box img2">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+        <div class="box img3">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+        <div class="box img4">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+        <div class="box img5">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+        <div class="box img6">
+          <img src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg" alt="image">
+          <div class="overlay-project"></div>
+        </div>
+      </div>
+
+      <span class="btn">See my work</span>
+    </section>
+
+    <footer>
+      <div class="gutters">
+        <div class="footer-container">
+          <img src="images/arrow.svg" alt="arrow right">
+          <div class="footer-text">
+            <div class="footer-prompt">
+              <p>Want to work with me?</p>
+            </div>
+            <div class="brief">
+              <a href="#">BRIEF ME</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-container">
+          <p>Or contact me through...</p>
+          <div class="fab-contact">
+            <div class="icon-wrapper">
+              <i class="fab fa-linkedin icon-contact"></i>
+            </div>
+            <div class="icon-wrapper">
+              <i class="fab fa-github icon-contact"></i>
+            </div>
+            <div class="icon-wrapper">
+              <i class="fab fa-twitter icon-contact"></i>
+            </div>
+            <div class="icon-wrapper">
+              <i class="fab fa-discord icon-contact"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="mockup">Mockup vectors created by Freepik</p>
+          <p>&copy Copyright Cristiano Crolla. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

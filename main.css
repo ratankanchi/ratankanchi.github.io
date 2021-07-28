@@ -9,7 +9,7 @@ body {
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: absolute;
   font-size: 100px;
   line-height: 80px;
@@ -22,13 +22,13 @@ h2 {
 
 h3 {
   font-size: 2.5em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3em;
   padding-bottom: 5px;
 }
@@ -64,7 +64,7 @@ h4 {
 }
 
 .overlay-menu a {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 20px;
   color: black;
   font-size: 2em;
@@ -105,7 +105,7 @@ h4 {
   background-color: black;
   margin: 3px 0;
   border-radius: 5px;
-  transition: 0.3s
+  transition: 0.3s;
 }
 .bar:nth-child(1) {
   width: 16px;
@@ -159,7 +159,7 @@ h4 {
 /* INTRO PAGE */
 .top {
   overflow: hidden;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   position: relative;
 }
 
@@ -167,8 +167,8 @@ h4 {
   height: 140vh;
   position: relative;
   width: 50%;
-  background-color: #F0B50B;
-  transition: .8s cubic-bezier(1, 0.12, 0.58, 0.89) 0s;
+  background-color: #f0b50b;
+  transition: 0.8s cubic-bezier(1, 0.12, 0.58, 0.89) 0s;
   z-index: 10;
 }
 
@@ -179,11 +179,11 @@ h4 {
 }
 
 .right {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.8em;
   opacity: 0;
   display: none;
-  animation: fade-in-right ease-in .6s forwards .7s;
+  animation: fade-in-right ease-in 0.6s forwards 0.7s;
 }
 
 .bottom {
@@ -192,7 +192,7 @@ h4 {
   font-size: 1.4em;
   opacity: 0;
   display: none;
-  animation: fade-in-bottom ease-in .4s forwards 1s;
+  animation: fade-in-bottom ease-in 0.4s forwards 1s;
 }
 
 .scroll-down {
@@ -205,7 +205,7 @@ h4 {
   z-index: 110;
   opacity: 0;
   display: block;
-  animation: fade-in-bottom ease .6s forwards 1.2s;
+  animation: fade-in-bottom ease 0.6s forwards 1.2s;
 }
 
 .scroll-down-left {
@@ -218,21 +218,21 @@ h4 {
   z-index: 110;
   display: none;
   opacity: 0;
-  animation: fade-in-bottom ease .5s forwards 1.2s;
+  animation: fade-in-bottom ease 0.5s forwards 1.2s;
 }
 
 .scroll-down p {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
 }
 
 .scroll-down-left p {
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
 }
@@ -261,8 +261,8 @@ h4 {
 }
 
 .intro-text {
-  color: #E2E2E2;
-  font-family: 'Raleway', sans-serif;
+  color: #e2e2e2;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3em;
   -webkit-text-stroke: 1.5px #cc8c16;
 }
@@ -272,7 +272,7 @@ h4 {
 }
 
 #about-text {
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: 1.8em;
   padding-bottom: 30px;
 }
@@ -289,7 +289,7 @@ h4 {
 /* SERVICES PAGE */
 section {
   padding-top: 60px;
-  background-color: #E2E2E2;
+  background-color: #e2e2e2;
 }
 
 section:first-child {
@@ -309,7 +309,7 @@ section:first-child {
 .top-card {
   height: 70vh;
   width: 100%;
-  background-color: #7D75CF;
+  background-color: #7d75cf;
   background-size: cover;
   background-position: center;
 }
@@ -318,7 +318,7 @@ section:first-child {
   min-height: 280px;
   height: 40vh;
   width: 100%;
-  background-color: #E2E2E2;
+  background-color: #e2e2e2;
 }
 
 .first-card {
@@ -343,7 +343,7 @@ section:first-child {
 }
 
 .subtext {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 10px 5px 0 0;
   display: inline-block;
   font-weight: bold;
@@ -416,7 +416,7 @@ footer {
 
 .footer-prompt p {
   font-style: italic;
-  font-size: .8em
+  font-size: 0.8em;
 }
 
 .brief a {
@@ -424,7 +424,7 @@ footer {
   font-weight: bold;
   color: black;
   font-size: 1.3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-bottom {
@@ -436,7 +436,7 @@ footer {
 }
 
 .footer-bottom p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 footer img {
@@ -456,7 +456,7 @@ footer img {
 .footer-text:hover {
   background-color: #e2f4f4;
 }
-.contact-container{
+.contact-container {
   top: 40%;
   right: 10%;
   position: absolute;
@@ -478,14 +478,15 @@ footer img {
 }
 .contact-container p {
   font-style: italic;
-  font-size: .8em
+  font-size: 0.8em;
 }
 
 /*************************
 * ANIMATION KEYFRAMES
 **************************/
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
 
@@ -541,10 +542,11 @@ footer img {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width : 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   h2 {
     font-size: 180px;
     line-height: 180px;
@@ -635,7 +637,8 @@ footer img {
     transition: 0.5s ease;
   }
 
-  .icon {}
+  .icon {
+  }
 
   .line {
     height: 2px;
@@ -681,7 +684,7 @@ footer img {
 
   .side-menu p {
     font-weight: 200;
-    font-size: .7em;
+    font-size: 0.7em;
     font-weight: bold;
     font-family: sans-serif;
     -webkit-transform: rotate(-90deg);
@@ -694,7 +697,7 @@ footer img {
   /* INTRO PAGE */
   #intro {
     height: 130vh;
-    transition: 0.9s cubic-bezier(0.68, -0.01, 0.68, 0.29) 0s
+    transition: 0.9s cubic-bezier(0.68, -0.01, 0.68, 0.29) 0s;
   }
 
   .info {
@@ -727,7 +730,7 @@ footer img {
 
   /* ABOUT PAGE */
   .intro-image {
-    height: 100vh
+    height: 100vh;
   }
 
   #about {
@@ -746,7 +749,7 @@ footer img {
   #about-text {
     font-size: 1em;
     line-height: 2.1em;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
   }
 
   /* SERVICES PAGE */
@@ -914,7 +917,8 @@ footer img {
     transition: 0.5s ease;
   }
 
-  .icon {}
+  .icon {
+  }
 
   .line {
     height: 2px;
@@ -960,7 +964,7 @@ footer img {
 
   .side-menu p {
     font-weight: 200;
-    font-size: .7em;
+    font-size: 0.7em;
     font-weight: bold;
     font-family: sans-serif;
     -webkit-transform: rotate(-90deg);
@@ -973,7 +977,7 @@ footer img {
   /* INTRO PAGE */
   #intro {
     height: 130vh;
-    transition: .8s ease 0s;
+    transition: 0.8s ease 0s;
   }
 
   .info {
@@ -1006,7 +1010,7 @@ footer img {
 
   /* ABOUT PAGE */
   .intro-image {
-    height: 100vh
+    height: 100vh;
   }
 
   #about {
@@ -1021,7 +1025,7 @@ footer img {
   #about-text {
     font-size: 1em;
     line-height: 2.1em;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
   }
 
   /* SERVICES PAGE */
@@ -1083,7 +1087,6 @@ footer img {
   .box:hover .overlay-project {
     transition: 0.8s ease-out;
   }
-
 
   /* Footer */
   footer {
@@ -1190,7 +1193,8 @@ footer img {
     transition: 0.5s ease;
   }
 
-  .icon {}
+  .icon {
+  }
 
   .line {
     height: 2px;
@@ -1236,7 +1240,7 @@ footer img {
 
   .side-menu p {
     font-weight: 200;
-    font-size: .7em;
+    font-size: 0.7em;
     font-weight: bold;
     font-family: sans-serif;
     -webkit-transform: rotate(-90deg);
@@ -1246,11 +1250,10 @@ footer img {
     display: block;
   }
 
-
   /* INTRO PAGE */
   #intro {
     height: 130vh;
-    transition: .8s ease 0s;
+    transition: 0.8s ease 0s;
   }
 
   .info {
@@ -1283,7 +1286,7 @@ footer img {
 
   /* ABOUT PAGE */
   .intro-image {
-    height: 100vh
+    height: 100vh;
   }
 
   #about {
@@ -1301,7 +1304,7 @@ footer img {
   #about-text {
     font-size: 1em;
     line-height: 2.1em;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
   }
   /* SERVICES PAGE */
   .card-container {
@@ -1391,4 +1394,8 @@ footer img {
   .info {
     top: 10%;
   }
+}
+.box img {
+  margin-left: 5px;
+  margin-right: 5px;
 }

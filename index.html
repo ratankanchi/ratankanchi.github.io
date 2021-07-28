@@ -26,11 +26,11 @@
         <div class="bar"></div>
       </div>
       <div id="responsive_nav" class="overlay-menu" style="width: 0%">
-        <ul class="overlay_content">
+        <ul class="overlay_content" id="menu_buttons">
           <a href="#">Home</a>
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
           <a href="#">Resume</a>
-          <a href="#">Contact</a>
+          <a href="mailto: ratan.kanchi4087@gmail.com">Contact</a>
         </ul>
         <div class="fab-menu">
           <div class="icon-wrapper">
@@ -77,7 +77,7 @@
       </div>
     </div>
 
-    <a class="side-menu" onclick="sideBtn(this)">
+    <a class="side-menu" id="side-menu-id" onclick="sideBtn(this)">
       <i class="icon">
         <div class="line"></div>
         <div class="line"></div>
@@ -192,46 +192,19 @@
         </div>
         <div class="projects-container">
           <div class="box img1">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
+            <img src="images/SIDVIN.png" alt="image" />
           </div>
           <div class="box img2">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
-          </div>
-          <div class="box img3">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
-          </div>
-          <div class="box img4">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
-          </div>
-          <div class="box img5">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
+            <img src="images/VOLTERA TECH.png" alt="image" />
           </div>
           <div class="box img6">
-            <img
-              src="https://raw.githubusercontent.com/crolla97/Portfolio/master/images/projects-template.jpg"
-              alt="image"
-            />
-            <div class="overlay-project"></div>
+            <img src="images/SPOTLIGHT.png" alt="image" />
+          </div>
+          <div class="box img5">
+            <img src="images/FACE RECOGNITION.png" alt="image" />
+          </div>
+          <div class="box img4">
+            <img src="images/MUSIC GENRE.png" alt="image" />
           </div>
         </div>
 
@@ -255,16 +228,26 @@
             <p>Or contact me through...</p>
             <div class="fab-contact">
               <div class="icon-wrapper">
-                <i class="fab fa-linkedin icon-contact"></i>
+                <i class="fab fa-linkedin icon-contact" id="linkedin_icon"></i>
               </div>
               <div class="icon-wrapper">
-                <i class="fab fa-github icon-contact"></i>
+                <i
+                  class="fab fa-github icon-contact"
+                  id="github_icon"
+                  onclick="location.href='https://github.com/ratankanchi/'"
+                ></i>
               </div>
               <div class="icon-wrapper">
-                <i class="fab fa-twitter icon-contact"></i>
+                <i
+                  class="fab fa-twitter icon-contact"
+                  onclick="location.href='#'"
+                ></i>
               </div>
               <div class="icon-wrapper">
-                <i class="fab fa-discord icon-contact"></i>
+                <i
+                  class="fab fa-discord icon-contact"
+                  onclick="location.href='#'"
+                ></i>
               </div>
             </div>
           </div>
@@ -277,6 +260,11 @@
     </main>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
